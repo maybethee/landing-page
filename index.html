@@ -6,53 +6,75 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    
+<!--HEADER/HERO SECTION-->
+    <div class="hero-container">
 
-    <div class="hero-container"> <!-- is hero-container reduntant? -->
-      <div class="hero-header">
-        <img src=""> <!-- find image -->
+<!--HERO LEFT-->
+      <div class="hero-left">
+        <div class="header-logo">What is this?</div> 
+        <h2>This website is awesome</h2>
+        <div class="header-text-small">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
+        <button class="button" href="http://google.com">Sign up?</button>  
+      </div>
+
+<!--HERO RIGHT-->
+      <div class="hero-right">
         <ul>
-          <li>Header link one</li>
-          <li>Header link two</li>
-          <li>Header link three</li>
+          <li><a class="header-text-small" href="http://google.com">a link?</a></li>
+          <li><a class="header-text-small" href="http://google.com">another link?</a></li>
+          <li><a class="header-text-small" href="http://google.com">one more?</a></li>
         </ul>
+        <img src="img/hero-img.jpeg"> 
       </div>
-        <h1>This wbsite is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-      <!--^^ should this be <p> or just another div? what are the advantages of either?? ^^-->
-        <button class="button">Sign up</button>
-        <img src=""> <!-- find image -->
-        <!-- ^^ should the image be in its own container? -->
     </div>
 
+<!--INFO SECTION-->
+    <div class="info-head">       
+      Some random information?
+    </div>
     <div class="info-container">
-      <div class="info-head">
-        Some random information.
+      <div class="info">
+        <img src="img/icon1.png" class="info-img">
+        <div class="info-text">this is some subtext under an illustration or image I guess</div>
       </div>
-      <div class="info-img">
-        <!--see that one exercise to remind how to format this in html. alternate img and text?-->
+      <div class="info">
+        <img src="img/icon2.png" class="info-img">
+        <div class="info-text">this is some subtext under an illustration or image I guess</div>
+      </div>
+      <div class="info">
+        <img src="img/icon3.png" class="info-img">
+        <div class="info-text">this is some subtext under an illustration or image I guess</div>
+      </div>
+      <div class="info">
+        <img src="img/icon4.png" class="info-img">
+        <div class="info-text">this is some subtext under an illustration or image I guess</div>
       </div>
     </div>
 
+<!--QUOTE SECTION-->
     <div class="quote-container">
-      <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-      <p class="quote-attribute"> -Thor, God of Thunder</p> <!--I assume attribution will need to be a new element because it's styled differently?-->
+      <div class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+        <div class="quote-attribute"> —Probably someone famous</div>
+      </div>
     </div>
 
+<!--ACTION SECTION-->
     <div class="action">
       <div class="action-head">
-        Call to action! It's time!
+        Call to action? Is it time?
+        <div class="action-body">
+          Sign up for our product by clicking that button right over there<br>(is that what that does?)
+        </diV>
       </div>
-      <div class="action-body">
-        Sign up for our product by clicking that button right over there!
-      </diV>
-      <button class="button"> <!--should both buttons be same class or?-->
-        Sign up
+      <button href="http://google.com"> <!--should both buttons be same class or?-->
+        Sign up?
       </button>
     </div>
 
+<!--FOOTER-->
     <div class="footer">
-      Copyright C The Odin Project 2021
+      Copyright © The Odin Project 2021
     </div>
-    
   </body>
 </html>
